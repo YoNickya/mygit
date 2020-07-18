@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5504a5bf86052039",
+  "name" : "test_storeget_02",
+  "time" : {
+    "start" : 1594980349457,
+    "stop" : 1594980349622,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "5ec2fb2853be6f71",
+  "name" : "test_storeget_01",
+  "time" : {
+    "start" : 1594980349333,
+    "stop" : 1594980349454,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

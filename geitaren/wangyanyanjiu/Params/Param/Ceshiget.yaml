@@ -1,0 +1,19 @@
+---
+Ceshiget:
+  dec: "基础设置"
+  parameters:
+    -
+      url: /getJyAocT2001/AQ1170/2019-10-1/2019-10-2/AQ/N/6/N/N
+      data:
+      header: {
+                "Content-Type": "application/x-www-form-urlencoded"
+              }
+
+#    -
+#      url: /users/recommended?seen_ids=&count=5&only_unfollowed=true
+#      data:
+#      header: {
+#                 "User-Agent": "PostmanRuntime/7.24.1",
+#                 "Content-Type": "keep-alive",
+#                 "Cookie": "locale=zh-CN; "
+#              }

@@ -1,0 +1,232 @@
+[ERROR 2019-12-05 18:36:42]Response text Does not contain expected_msg, expected_msg is "message":""
+[ERROR 2019-12-05 18:37:52]Response text Does not contain expected_msg, expected_msg is "status":"S"
+[ERROR 2019-12-05 18:39:59]Response text Does not contain expected_msg, expected_msg is "status":"S"
+[ERROR 2019-12-05 18:43:15]Response text Does not contain expected_msg, expected_msg is "status":"S"
+[ERROR 2019-12-05 18:46:05]Response text Does not contain expected_msg, expected_msg is str（"status":"S"）
+[ERROR 2019-12-05 18:58:20]Response text Does not contain expected_msg, expected_msg is str（"status":"S"）
+[ERROR 2019-12-06 17:07:03]Response text Does not contain expected_msg, expected_msg is 更新成功
+[ERROR 2019-12-09 16:57:40]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 16:59:05]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 17:49:38]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 17:51:58]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 17:52:39]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-09 17:54:56]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 17:55:42]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 17:59:15]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 17:59:52]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-09 18:03:52]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-09 18:13:25]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-09 18:16:24]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-09 18:19:49]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 18:22:08]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 18:41:49]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 18:44:17]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 18:45:18]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 18:47:12]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 18:48:27]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 18:48:44]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:00:01]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:03:01]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:03:32]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:03:50]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:04:08]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:05:14]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:07:00]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:23:04]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:24:46]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-09 19:43:29]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-09 19:43:58]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:18:14]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:20:41]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:21:25]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:23:41]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:24:14]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:38:33]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:40:28]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:49:24]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:56:50]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 09:58:03]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-10 10:13:52]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:41:22]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:45:22]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:45:38]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:48:44]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:51:39]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:52:19]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:53:34]执行用例失败，请检查环境配置
+[ERROR 2019-12-11 08:53:53]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 08:56:58]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:00:40]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:01:16]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:02:22]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:06:03]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:06:35]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:07:15]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:08:10]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:10:10]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:10:15]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:15:27]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:15:31]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:16:11]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:16:17]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:18:40]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:18:45]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:20:06]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:20:11]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:20:46]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:20:52]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:22:18]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:23:30]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:23:31]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:25:29]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:25:32]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 09:26:32]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:27:21]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:27:58]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 09:30:48]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 10:51:28]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-11 10:51:33]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-11 10:52:15]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2019-12-13 19:37:45]Response text Does not contain expected_msg, expected_msg is 测试错误王燕
+[ERROR 2019-12-13 19:43:57]Response text Does not contain expected_msg, expected_msg is 测试错误王燕
+[ERROR 2019-12-18 19:46:52]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 19:46:52]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-18 19:48:23]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 19:48:23]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-18 19:50:11]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 19:50:11]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-18 20:00:00]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 20:00:00]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-18 20:01:16]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 20:01:35]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 20:02:07]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 20:02:07]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-18 20:17:18]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 20:17:18]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-18 20:17:59]邮件发送失败，请检查邮件配置
+[ERROR 2019-12-18 20:17:59]发送邮件失败，请检查邮件配置
+[ERROR 2019-12-19 16:02:30]Response text Does not contain expected_msg, expected_msg is 测试错误王燕
+[ERROR 2020-01-16 11:16:55]Response text Does not contain expected_msg, expected_msg is 别的
+[ERROR 2020-01-16 11:17:19]邮件发送失败，请检查邮件配置
+[ERROR 2020-01-16 11:17:19]发送邮件失败，请检查邮件配置
+[ERROR 2020-01-16 11:18:46]Response text Does not contain expected_msg, expected_msg is 别的
+[ERROR 2020-01-16 11:18:52]邮件发送失败，请检查邮件配置
+[ERROR 2020-01-16 11:21:19]Response text Does not contain expected_msg, expected_msg is 别的
+[ERROR 2020-01-16 11:21:24]邮件发送失败，请检查邮件配置
+[ERROR 2020-01-16 11:24:23]Response text Does not contain expected_msg, expected_msg is 别的
+[ERROR 2020-01-16 11:24:28]邮件发送失败，请检查邮件配置
+[ERROR 2020-03-09 14:40:51]Response text Does not contain expected_msg, expected_msg is 别的
+[ERROR 2020-03-09 14:41:00]邮件发送失败，请检查邮件配置
+[ERROR 2020-03-09 14:45:48]Response text Does not contain expected_msg, expected_msg is 别的
+[ERROR 2020-03-09 14:46:05]邮件发送失败，请检查邮件配置
+[ERROR 2020-03-19 18:13:50]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2020-03-19 18:16:20]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2020-04-10 14:08:12]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2020-05-09 14:51:40]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2020-06-12 14:07:42]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2020-06-12 14:25:26]Response text Does not contain expected_msg, expected_msg is 成功
+[ERROR 2020-07-10 15:41:48]get cookies error, please checkout!!!
+[ERROR 2020-07-10 15:41:58]get cookies error, please checkout!!!
+[ERROR 2020-07-10 15:44:11]get cookies error, please checkout!!!
+[ERROR 2020-07-10 17:29:16]get cookies error, please checkout!!!
+[ERROR 2020-07-10 17:35:26]get cookies error, please checkout!!!
+[ERROR 2020-07-10 17:35:32]邮件发送失败，请检查邮件配置
+[ERROR 2020-07-10 17:35:57]get cookies error, please checkout!!!
+[ERROR 2020-07-10 17:36:03]邮件发送失败，请检查邮件配置
+[ERROR 2020-07-10 17:36:54]get cookies error, please checkout!!!
+[ERROR 2020-07-10 17:37:00]邮件发送失败，请检查邮件配置
+[ERROR 2020-07-10 17:39:56]get cookies error, please checkout!!!
+[ERROR 2020-07-10 17:40:03]邮件发送失败，请检查邮件配置
+[ERROR 2020-07-10 17:45:57]get cookies error, please checkout!!!
+[ERROR 2020-07-10 17:46:03]邮件发送失败，请检查邮件配置
+[ERROR 2020-07-10 17:46:20]get cookies error, please checkout!!!
+[ERROR 2020-07-13 15:36:48]get cookies error, please checkout!!!
+[ERROR 2020-07-13 15:38:17]get cookies error, please checkout!!!
+[ERROR 2020-07-13 15:38:38]get cookies error, please checkout!!!
+[ERROR 2020-07-13 15:41:53]get cookies error, please checkout!!!
+[ERROR 2020-07-13 15:42:10]get cookies error, please checkout!!!
+[ERROR 2020-07-13 15:44:44]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:34:36]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:34:36]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:35:06]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:36:07]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:38:01]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:38:16]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:38:52]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:38:57]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:39:23]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:40:07]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:42:01]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:42:41]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:42:56]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:46:46]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:48:33]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:48:49]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:49:15]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:54:08]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:54:44]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:54:59]get cookies error, please checkout!!!
+[ERROR 2020-07-14 10:56:18]get cookies error, please checkout!!!
+[ERROR 2020-07-15 10:36:50]get cookies error, please checkout!!!
+[ERROR 2020-07-15 10:38:52]get cookies error, please checkout!!!
+[ERROR 2020-07-15 14:09:04]get cookies error, please checkout!!!
+[ERROR 2020-07-15 14:11:19]get cookies error, please checkout!!!
+[ERROR 2020-07-15 14:26:11]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:13:41]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:14:56]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:18:31]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:19:46]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:28:30]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:28:30]Response text Does not contain expected_msg, expected_msg is 查询成功,返回数据集合
+[ERROR 2020-07-15 15:28:30]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:36:02]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:40:36]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:41:54]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:42:30]get cookies error, please checkout!!!
+[ERROR 2020-07-15 15:42:35]邮件发送失败，请检查邮件配置
+[ERROR 2020-07-15 15:42:58]get cookies error, please checkout!!!
+[ERROR 2020-07-15 16:16:56]get cookies error, please checkout!!!
+[ERROR 2020-07-15 16:32:54]get cookies error, please checkout!!!
+[ERROR 2020-07-17 10:10:24]get cookies error, please checkout!!!
+[ERROR 2020-07-17 10:15:59]get cookies error, please checkout!!!
+[ERROR 2020-07-17 10:20:18]get cookies error, please checkout!!!
+[ERROR 2020-07-17 10:29:52]get cookies error, please checkout!!!
+[ERROR 2020-07-17 10:44:20]get cookies error, please checkout!!!
+[ERROR 2020-07-17 10:57:03]get cookies error, please checkout!!!
+[ERROR 2020-07-17 11:22:58]get cookies error, please checkout!!!
+[ERROR 2020-07-17 11:23:37]get cookies error, please checkout!!!
+[ERROR 2020-07-17 11:25:23]get cookies error, please checkout!!!
+[ERROR 2020-07-17 11:26:15]get cookies error, please checkout!!!
+[ERROR 2020-07-17 11:30:02]get cookies error, please checkout!!!
+[ERROR 2020-07-17 11:56:51]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:12:52]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:23:10]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:23:10]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:25:05]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:25:05]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:28:50]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:28:50]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:35:00]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:35:01]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:39:12]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:39:12]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:40:34]get cookies error, please checkout!!!
+[ERROR 2020-07-17 14:40:34]get cookies error, please checkout!!!
+[ERROR 2020-07-17 15:15:13]get cookies error, please checkout!!!
+[ERROR 2020-07-17 15:15:13]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:03:25]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:03:25]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:05:01]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:05:01]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:08:41]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:08:41]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:11:31]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:11:31]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:57:11]get cookies error, please checkout!!!
+[ERROR 2020-07-17 16:57:11]get cookies error, please checkout!!!
+[ERROR 2020-07-17 17:26:40]get cookies error, please checkout!!!
+[ERROR 2020-07-17 17:26:40]get cookies error, please checkout!!!
+[ERROR 2020-07-17 17:27:35]get cookies error, please checkout!!!
+[ERROR 2020-07-17 17:27:35]get cookies error, please checkout!!!
+[ERROR 2020-07-17 18:05:49]get cookies error, please checkout!!!
+[ERROR 2020-07-17 18:05:49]get cookies error, please checkout!!!

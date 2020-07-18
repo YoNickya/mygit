@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wangyanyanjiu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master/OP_API" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master/OP_API/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master-wuqian-xinban/OP_API" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master-wuqian-xinban" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master-wuqian-xinban/OP_API/common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master-wuqian-xinban/UMS_API" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master-wuqian-xinban/untitled" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/api-test-master-wuqian-xinban/untitled/common" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/venv1" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.7 (geitaren)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="projectConfiguration" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>

@@ -1,0 +1,84 @@
+{
+  "uid" : "1efeec871acc2379",
+  "name" : "test_storeget_02",
+  "fullName" : "TestCase.test_storeget.TestStoreget#test_storeget_02",
+  "historyId" : "398ae35cafe3fce9ec67cde952eca849",
+  "time" : {
+    "start" : 1594974082153,
+    "stop" : 1594974082153,
+    "duration" : 0
+  },
+  "description" : "\n            用例描述01：get查询门店无效的字符（####）\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述01：get查询门店无效的字符（####）\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: module 'allure' has no attribute 'environment'",
+  "statusTrace" : "@pytest.fixture()\n    def action():\n        # 定义环境\n        env = Consts.API_ENVIRONMENT_GET\n        # 定义报告中environment\n        conf = Config()\n        host = conf.host_get\n        tester = conf.tester_get\n>       allure.environment(environment=env)\nE       AttributeError: module 'allure' has no attribute 'environment'\n\nTestCase/conftest.py:35: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "action",
+    "time" : {
+      "start" : 1594974082154,
+      "stop" : 1594974082155,
+      "duration" : 1
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: module 'allure' has no attribute 'environment'\n",
+    "statusTrace" : "  File \"/Users/liqianjun/PycharmProjects/geitaren/venv1/lib/python3.7/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/liqianjun/PycharmProjects/geitaren/venv1/lib/python3.7/site-packages/_pytest/fixtures.py\", line 938, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/liqianjun/PycharmProjects/geitaren/venv1/lib/python3.7/site-packages/_pytest/fixtures.py\", line 799, in call_fixture_func\n    res = fixturefunc(**kwargs)\n  File \"/Users/liqianjun/PycharmProjects/geitaren/wangyanyanjiu/TestCase/conftest.py\", line 35, in action\n    allure.environment(environment=env)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Storeget"
+  }, {
+    "name" : "feature",
+    "value" : "Storeget"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_storeget"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStoreget"
+  }, {
+    "name" : "host",
+    "value" : "lqjdeMBP"
+  }, {
+    "name" : "thread",
+    "value" : "60935-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_storeget"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1efeec871acc2379.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,18 @@
+---
+Storeget:
+  dec: "门店查询"
+  parameters:
+    -
+      url: /api/vendor/store/list-for-front?sessionId=5d4fa99d-7f7f-4197-8818-633cfc0b7a30&device=wxapp&version=3.1
+      data: keyword=鲜食1号
+      header: {
+                "Content-Type": "application/x-www-form-urlencoded"
+              }
+
+    -
+      url: /api/vendor/store/list-for-front?sessionId=5d4fa99d-7f7f-4197-8818-633cfc0b7a30&device=wxapp&version=3.1
+      data: keyword=####
+      header: {
+                "Content-Type": "application/x-www-form-urlencoded"
+              }
+

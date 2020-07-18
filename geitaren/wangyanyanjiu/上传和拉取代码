@@ -1,0 +1,22 @@
+具体网上参考地址：https://blog.csdn.net/qq_29907885/article/details/88866556
+
+上传：
+1、在对应仓库地址，也就是.git上级，右键选择Git Bash here
+2、输入：git status
+3、输入：git add .
+4、输入：git commit -m "自己写明备注"
+5、输入：git pull origin master
+6、输入：git push origin master
+
+
+
+拉取代码下来：
+1、本地新建一个文件夹
+2、在该文件夹点击右键选择Git Bash here
+3、输入：git init
+4、输入：git remote add origin 你的仓库地址
+4、输入：git fetch origin
+5、输入：git fetch origin master（这个是分支名称）
+6、git checkout -b 本地分支名 origin/远程分支名
+   举例：git checkout -b master origin/master
+7、输入：git pull origin 远程分支名（master）

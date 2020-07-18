@@ -1,0 +1,100 @@
+这个是网上第一部分的开源代码
+经过我修改过后，以后增加测试用例需要操作如下：
+1、Params-->param下面，增加对应yaml，
+2、在Params-->params.py里面增加对应的解析数据
+3、在TestCase下面增加对应的测试.py
+4、如果需要更改url的host配置文件，还需要修改config.ini,如果是新增的话，还需要在Config.py里面增加对应读取项目
+-------------------
+lqj添加参数化用例点如下
+1.如需参数化get请求，Params-->param下面对应yaml添加一条新的请求
+2.在Params-->params.py里面还保持原有对应的解析数据
+3.在TestCase下面对应的测试.py，在原第一条请求case下，添加一条新的case，且遍历[1],如：
+api_url = req_url + urls[1]
+        print(api_url)
+        response = request.get_request(api_url, params[1], headers[1])
+
+下面是遇到的问题解决方案汇总：
+
+1、提示这个报错，AttributeError: module 'allure' has no attribute 'severity_level'，卸载allure-pytest即可
+2、提示AttributeError: module 'pytest' has no attribute 'allure'，把pytest版本安装3.8.2以下的就可以，高版本不行(pycharm安装+可以修改版本号)
+3、ModuleNotFoundError: No module named 'Crypto'，拷贝新的包到本插件下面
+4、requests-toobelt，安装这个包，才能导入from requests_toolbelt import MultipartEncoder
+5、提示解码，需要跟踪到具体位置，增加一个utf-8 才行
+6、配置文件里面需要更改一下数据，如下：
+[private_debug]
+# debug测试服务
+tester = 燕子_b69b
+environment = debug
+versionCode = v1.0
+host = www.jianshu.com
+loginHost = www.jianshu.com/sign_in
+loginInfo = {"email": '15101117686@163.com',"password": '自己的密码',"auth": 'admin'}
+
+[online_release]
+# release正式服务
+tester = 燕子_b69b
+environment = release
+versionCode = v1.0
+host = www.jianshu.com
+loginHost = www.jianshu.com/sign_in
+loginInfo = {"email": '15101117686@163.com',"password": '自己的密码',"auth": 'admin'}
+
+[mail]
+#发送邮件信息
+smtpserver = smtp.163.com
+sender = 15101117686@163.com
+receiver = wangyan3@juneyaoair.com
+username = 15101117686@163.com
+password = 自己的密码
+
+7、Basic.yaml第一部分有这些更改
+      url: /sign_in
+      data:
+        -
+          email: 15101117686@163.com
+          password: 自己的密码
+          auth: admin
+8、在tools.py那里，withopen那里增加,encoding="utf-8"
+9、在run.py里面增加import os，然后调用如下命令，才能生成html报告，生成allure报告
+    cmd里面需要加一个--clean
+    d = os.system(cmd)
+
+10、当提示py._path.local.LocalPath.ImportMismatchError:ERROR: could not load D:\two\wangyanyanjiu\TestCase\conftest.py
+这个错误时，需要删除TestCase下面的__pycache__这个文件夹，里面有以前的缓存数据，导致失效
+
+11、 这个里面生成结果，如果想要在jenkens生成allure报告，必须代码里面生成结果到这个位置才行，
+args = ['-s', '-q', '--alluredir', r"F:\Program Files (x86)\Jenkins\workspace\ceshi_zijinxitong\allure-results"]
+
+12、有时候邮件发送失败，是因为里面的目录，需要加上r和\\，就可以了，如下：
+cmd = 'allure generate %s -o %s --clean' % (results,r"F:\\Program Files (x86)\\Jenkins\\workspace\\ceshi_zijinxitong\\allure-report")
+
+13、当输出邮件结果时，想要输出指定空格，可以使用\b \b \b \b,主要中间一定要加空格，如下：
+接口运行结果集：%s \n\b \b \b \b \b \b 报告接口地址为：%s
+
+14、jenkens里面配置allure报告时，网上随便找一下教程就行，主要是1、安装插件allure Jenkins Plugin，2、Global Tools Configuration-》Allure Commandline
+这里面配置Allure Commandline，这个是自动安装，网上随便找，然后就是创建一个项目，输入你的代码地址，输入windows cmd命令，配置Allure Report报告即可，
+以后有时间，可以设置定时执行，定时发邮件
+
+15、git里面查看配置文件，git config --list在命令窗口里面运行即可，如果要修改用户名和邮箱，直接在c:\users目录下面搜索.gitconfig即可
+16、git研究，首先要安装本地windows版本的git工具，然后需要在github网站https://github.com注册一个用户，然后才是输入命令，链接本地git与网站github联通，
+参考链接地址1：https://www.runoob.com/w3cnote/git-guide.html  参考链接地址2：https://www.runoob.com/git/git-remote-repo.html，私钥存放路径为：C:\Users\tlx0515\.ssh，点开id_rsa.pub,复制其中私钥即可
+17、git上传本地文件操作，新建仓库，亲自试过，没有问题，https://blog.csdn.net/qq_32846595/article/details/71149312
+
+18、Jenkens配置Git遇到的问题，如下两个链接地址综合即可，链接地址：https://blog.csdn.net/u013061459/article/details/77452707，https://www.cnblogs.com/feng0520/p/9070071.html
+19、Jenkins提示反向代理设置有误，https://www.cnblogs.com/ycyzharry/p/6832203.html，有时候是因为地址为localhost，改成ip地址就行
+20、私钥存放路径为：C:\Users\tlx0515\.ssh，点开id_rsa.pub,复制其中私钥即可
+21，配置git执行报错，解决Jenkins上git出现的“ERROR: Error fetching remote repo 'origin'”问题，https://www.cnblogs.com/feng0520/p/9070071.html，按照一执行123即可
+
+22、git拉取分支，报错：error：RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054，解决方案：输入这个命令，git config http.sslVerify "false"然后再
+输入，git config  --global   http.sslVerify "false"，反正有时候就可以，有时候就不行，多试几次就行了，记得开启host，让下载速度增快
+23、使得git下载速度更快配置的，链接地址https://blog.csdn.net/qq_15110681/article/details/94415946
+24、报错：git - error: RPC failed; curl 18 transfer closed with outstanding read data remaining 解决，https://blog.csdn.net/qq_21383435/article/details/87186423，如果还是不行，就继续扩大里面的值
+
+25、从git拉取代码到本地修改上传，操作步骤，详见链接地址：https://blog.csdn.net/qq_29907885/article/details/88866556，其中遇到问题如下，再搜索研究，这里面我第一次提交，然后clone下载，修改再提交已经成功
+26、有时候一直报错这个，fatal: Out of memory, malloc failed (tried to allocate 889192448 bytes)，有可能原因是c:\users目录下面搜索.gitconfig这里面的这个参数太大，修改为postBuffer = 524288000即可，不行就
+    在后面继续加0，直到通过为止，但是有时候是因为这个值太大，有时候也会报错，自己到时候调试一下就行
+
+27、Jenkins配置github的链接地址：https://blog.csdn.net/weixin_34279246/article/details/85976322，其中bindings也就是绑定这里，不要填写，填写了反而报错，我就是找这个问题找了半天，亲自试过，可以成功
+28，记录一下，我当时github创建Jenkins的tokens为：3c160059b985772f2b989bb73a157cdeb0e019af
+29、git clone时RPC failed; curl 18 transfer closed with outstanding read data remaining，解决地址：https://www.cnblogs.com/zjfjava/p/10392150.html
+30、git 使用 push 提交到远程仓库出现 The requested URL returned error: 403 错误，解决方案：https://www.jianshu.com/p/0301684cd208

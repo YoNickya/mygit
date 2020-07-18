@@ -1,0 +1,97 @@
+{
+  "uid" : "442f222793011e7d",
+  "name" : "test_storeget_01",
+  "fullName" : "TestCase.test_storeget.TestStoreget#test_storeget_01",
+  "historyId" : "673e61249e7ffcaa3be0ca309a9e03e9",
+  "time" : {
+    "start" : 1594976231276,
+    "stop" : 1594976231364,
+    "duration" : 88
+  },
+  "description" : "\n            用例描述01：get查询门店(鲜食1号)\n        ",
+  "descriptionHtml" : "<pre><code>        用例描述01：get查询门店(鲜食1号)\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "action",
+    "time" : {
+      "start" : 1594976231273,
+      "stop" : 1594976231274,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n            用例描述01：get查询门店(鲜食1号)\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a8dac3962915543",
+      "name" : "log",
+      "source" : "6a8dac3962915543.txt",
+      "type" : "text/plain",
+      "size" : 441
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Storeget"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "Storeget"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_storeget"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestStoreget"
+  }, {
+    "name" : "host",
+    "value" : "lqjdeMBP"
+  }, {
+    "name" : "thread",
+    "value" : "72017-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_storeget"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "442f222793011e7d.json",
+  "parameterValues" : [ ]
+}
